@@ -1,0 +1,29 @@
+{
+  "extends": "@micra/typescript-config/base",
+  "compilerOptions": {
+    "noEmit": true,
+    "skipLibCheck": true,
+    "types": [
+      "vitest/globals",
+      "@micra/core/application/globals",
+      "@micra/application/register",
+      "@micra/router/register",
+      "@micra/request-handler/register",
+      "@micra/react-dom-ui-engine/register",
+      "@micra/spa-router/register",
+      "@micra/rest-router/register"
+    ],
+    "baseUrl": ".",
+    "module": "commonjs",
+    "paths": {
+      "@/*": [
+        "./*"
+      ]
+    }
+  },
+  "include": [
+    "**/*.ts",
+    "**/*.tsx",
+    "**/*.d.ts"
+  ]
+}
