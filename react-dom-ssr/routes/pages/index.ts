@@ -1,7 +1,7 @@
-import * as HomePage from './pages/HomePage';
-import * as AboutPage from './pages/AboutPage';
-import * as HomePageMain from './pages/HomePage/nested/HomePageMain';
-import * as HomePageAside from './pages/HomePage/nested/HomePageAside';
+import * as HomePage from './HomePage';
+import * as AboutPage from './AboutPage';
+import * as HomePageMain from './HomePage/nested/HomePageMain';
+import * as HomePageAside from './HomePage/nested/HomePageAside';
 
 const router = use('router');
 

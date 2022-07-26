@@ -4,7 +4,7 @@ export const AppServiceProvider: Micra.ServiceProvider = {
   async boot({container}) {
     container.use('ui-engine').setRoot(Document);
 
-    await import('@/routes/index');
-    await import('@/routes/index.server');
+    await import('@/routes/pages');
+    await import('@/routes/api');
   },
 };
